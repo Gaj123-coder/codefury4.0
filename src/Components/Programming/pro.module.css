@@ -1,0 +1,14 @@
+.pos{
+    text-align: center;
+}
+
+.pi{
+    position: relative;
+    top:7rem;
+}
+
+.posi{
+    position: relative;
+    top:6px;
+    left:13rem;
+}

@@ -1,0 +1,55 @@
+.bar{
+    height:5rem;
+}
+
+.hr{
+    background-color:rgb(211, 88, 16);
+    margin-bottom: 2px;
+    height:2px;
+    color:orange;
+    width:76rem;
+}
+
+
+.img{
+   width:40px;
+   position:relative;
+   left:30rem;
+   bottom:3.7rem;
+}
+
+.h1s{
+    position: relative;
+    left:33rem;
+}
+
+.pose{
+    position: relative;
+    bottom:3.8rem;
+}
+
+.posi{
+    position: relative;
+    left:68rem;
+    bottom:11rem;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+    font-family:sans-serif;
+    padding-right:4rem;
+    font-size: 12px;
+    text-align: center;
+}
+.link{
+    width:40px;
+}
+.link>div{
+    display: inline-block;
+    width:58px;
+}
+.link>div:hover{
+    background-color: rgb(185, 182, 182);
+    border-radius:12px;
+}

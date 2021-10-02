@@ -1,0 +1,19 @@
+.button_class {
+    display:block;
+    width:200px;
+    height:30px;
+    background-color:rgb(87, 2, 126);
+    box-shadow: 2px;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    font-family: sans-serif;
+    font-weight:300;
+}
+
+.button_class:hover,:disabled{
+    background-color: rgb(172, 135, 170);
+}
+
+.button_class:focus{
+    color: rgb(87, 2, 126);
+}

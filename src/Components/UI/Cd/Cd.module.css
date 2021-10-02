@@ -1,0 +1,34 @@
+.c-div{
+    display: grid;
+    grid-template-columns:55px 55px 55px;
+    grid-column-gap:2px;
+    align-items: center;
+    height:32px;
+    width:180px;
+    position: relative;
+    left:3rem;
+}
+.c-div >div{
+    height:32px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sep-cou div{
+    border:2px solid rgb(245, 132, 128);
+    height:25px;
+    background-color: rgb(211, 9, 9);
+}
+
+.sep-cou p{
+    position:relative;
+    bottom:17px;
+    left:7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}

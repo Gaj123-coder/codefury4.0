@@ -1,0 +1,40 @@
+.grd{
+    display:grid;
+    border: 1px solid;
+    grid-template-columns: 330px 330px 330px;
+    grid-auto-rows:350px;
+    grid-column-gap:50px;
+    grid-row-gap:10px;
+    width:76rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grd>div{
+    border: 1px solid;
+    height:340px;
+    width:330px;
+}
+
+.grd>div>img{
+    width:320px;
+    height:180px;
+    padding-left:5px;
+    padding-top:3px;
+}
+
+.grd>div:hover{
+    border:2px solid rgb(58, 131, 173);
+}
+
+.grd>div>div{
+    width:300px;
+    border:1px solid rgb(89, 180, 223);
+    border-radius: 122px;
+    background-color: rgb(89, 180, 223);
+    height:1px;
+    position:relative;
+    left:11px;
+    top:3px;
+
+}

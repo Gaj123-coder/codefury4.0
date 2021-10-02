@@ -1,0 +1,44 @@
+.form{
+    border: 1px solid black;
+    width:400px;
+    height:500px;
+    position:relative;
+    left:7rem;
+    top:4rem;
+}
+
+.form > input{
+    position:relative;
+    width:200px;
+    left:7rem;
+}
+.input :active{
+   color: rgb(197, 169, 197,0.8);
+}
+.para{
+    font-family: sans-serif;
+    font-weight: 550;
+    position:relative;
+    top:2.2rem;
+    left:10px;
+}
+.err{
+    color:red;
+    padding:10px;
+    position: relative;
+    top:3rem;
+}
+
+.form >hr{
+    background-color:rgb(183, 183, 228);
+    width:400px;
+    height:1px;
+    position:relative;
+    top:1.5rem;
+}
+
+.pos{
+    position: relative;
+    left:7rem;
+    top:4rem;
+}
